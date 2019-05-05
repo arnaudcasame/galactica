@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/tinyPadding">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/cardProp"
+        app:cardElevation="@dimen/tinyPadding"
+        app:cardBackgroundColor="@color/lightgray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/card_desc"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="@dimen/bigPadding"
+                android:paddingLeft="@dimen/tinyPadding"
+                android:paddingRight="@dimen/tinyPadding"
+                android:paddingBottom="@dimen/tinyPadding"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/categoryText"
+                android:text="@string/card_category" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date"
+                android:layout_margin="@dimen/tinyPadding"
+                android:textStyle="italic"
+                tools:text="@string/card_date"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/author"
+                android:layout_margin="@dimen/tinyPadding"
+                android:textStyle="italic"
+                tools:text="@string/card_author"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card_title"
+                android:background="@color/colorPrimaryDark"
+                android:paddingBottom="@dimen/bigPadding"
+                android:paddingLeft="@dimen/tinyPadding"
+                android:paddingRight="@dimen/tinyPadding"
+                android:paddingTop="@dimen/tinyPadding"
+                android:text="@string/card_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/titleText"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

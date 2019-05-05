@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tinyPadding">4dp</dimen>
+    <dimen name="cardProp">6dp</dimen>
+    <dimen name="tinyMargin">8dp</dimen>
+    <dimen name="smMargin">10dp</dimen>
+    <dimen name="bigPadding">30dp</dimen>
+    <dimen name="titleText">20sp</dimen>
+    <dimen name="categoryText">15sp</dimen>
+</resources>

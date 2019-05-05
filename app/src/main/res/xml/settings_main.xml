@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/search_by_default_section"
+        android:entries="@array/search_by_labels"
+        android:entryValues="@array/search_by_values"
+        android:key="@string/search_by_key"
+        android:title="@string/search_by_label" />
+
+    <EditTextPreference
+        android:defaultValue="@string/search_by_default_page_number"
+        android:inputType="number"
+        android:key="@string/search_number_page_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/search_number_page_label" />
+
+</PreferenceScreen>

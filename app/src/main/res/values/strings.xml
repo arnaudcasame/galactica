@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Galactica</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="no_data_connection">No Data Found, Relaunch the App</string>
+    <string name="server_response">Server: An error occurred in fetching the data</string>
+    <string name="card_title">Not the World Cup</string>
+    <string name="card_author">Written by Andy Bull</string>
+    <string name="card_description">Our writers suggest small-screen alternatives for those of us who are not glued to the World Cup fixtures</string>
+    <string name="card_category">Sport</string>
+    <string name="card_date">Published on 2018-07-11T22:43:31Z</string>
+    <string name="card_button">View All</string>
+    <string name="written_by">Written by </string>
+    <string name="published_on">Published on </string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <string name="search_number_page_label">Limit to</string>
+    <string name="search_number_page_key" translatable="false">number_page</string>
+    <string name="search_default_section" translatable="false">random</string>
+    <string name="search_default_page_number" translatable="false">10</string>
+
+    <string name="search_by_label">Search By</string>
+    <string name="search_by_key">search_by</string>
+    <string name="search_by_default_section" translatable="false">@string/search_default_section</string>
+    <string name="search_by_default_page_number" translatable="false">@string/search_default_page_number</string>
+
+    <string name="search_by_random_label">Random</string>
+    <string name="search_by_news_label">News</string>
+    <string name="search_by_world_label">World</string>
+    <string name="search_by_politics_label">Politics</string>
+    <string name="search_by_environment_label">Environment</string>
+    <string name="search_by_weather_label">Weather</string>
+    <string name="search_by_technology_label">Technology</string>
+    <string name="search_by_media_label">Media</string>
+    <string name="search_by_sport_label">Sport</string>
+    <string name="search_by_football_label">Football</string>
+
+
+    <string name="search_by_random_value" translatable="false">random</string>
+    <string name="search_by_news_value" translatable="false">news</string>
+    <string name="search_by_world_value" translatable="false">world</string>
+    <string name="search_by_politics_value" translatable="false">politics</string>
+    <string name="search_by_environment_value" translatable="false">environment</string>
+    <string name="search_by_weather_value" translatable="false">weather</string>
+    <string name="search_by_technology_value" translatable="false">technology</string>
+    <string name="search_by_media_value" translatable="false">media</string>
+    <string name="search_by_sport_value" translatable="false">sport</string>
+    <string name="search_by_football_value" translatable="false">football</string>
+</resources>

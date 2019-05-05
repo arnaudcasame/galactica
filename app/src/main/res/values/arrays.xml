@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_by_labels">
+        <item>@string/search_by_random_label</item>
+        <item>@string/search_by_news_label</item>
+        <item>@string/search_by_world_label</item>
+        <item>@string/search_by_politics_label</item>
+        <item>@string/search_by_environment_label</item>
+        <item>@string/search_by_weather_label</item>
+        <item>@string/search_by_technology_label</item>
+        <item>@string/search_by_media_label</item>
+        <item>@string/search_by_sport_label</item>
+        <item>@string/search_by_football_label</item>
+    </string-array>
+
+    <string-array name="search_by_values">
+        <item>@string/search_by_random_value</item>
+        <item>@string/search_by_news_value</item>
+        <item>@string/search_by_world_value</item>
+        <item>@string/search_by_politics_value</item>
+        <item>@string/search_by_environment_value</item>
+        <item>@string/search_by_weather_value</item>
+        <item>@string/search_by_technology_value</item>
+        <item>@string/search_by_media_value</item>
+        <item>@string/search_by_sport_value</item>
+        <item>@string/search_by_football_value</item>
+    </string-array>
+</resources>
